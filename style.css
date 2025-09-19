@@ -1,0 +1,64 @@
+#wrapper {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: wheat;
+}
+
+a {
+    font-size: 18px
+}
+
+h2 {
+   font-size: 30px;
+    color: rgb(178, 32, 32)
+}
+h3 {
+   font-size: 30px;
+    color: rgb(178, 32, 32)
+}
+h4 {
+   font-size: 30px;
+    color: rgb(178, 32, 32)
+}
+h5 {
+   font-size: 30px;
+    color: rgb(178, 32, 32)
+}
+p {
+    font-size: 25px
+}
+li {
+    font-size: 25px
+}
+
+#pageContent {
+    padding: 50px;
+    background-color: bisque;
+    height: 700px;
+    font-size: 18px;
+}
+
+#myHeader {
+    height: 100px;
+    background-color: cadetblue;
+    color: wheat;
+    font-size: 50;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#profileImg{
+    float: right;
+    padding: 10px;
+    border: 5px dashed red; width:30% 
+}
+a.button{
+    
+    padding: 15px;
+    border: 5px outset buttonborder;
+    border-radius: 7px;
+    color: black;
+    background-color: azure;
+    text-decoration: none;
+    margin: 20px;
+}
