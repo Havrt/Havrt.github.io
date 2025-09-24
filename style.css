@@ -1,28 +1,22 @@
+body {
+    background-color: #16439b;
+}
 #wrapper {
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: wheat;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #ffffff;
+    height: 2900px;
 }
-
 a {
-    font-size: 18px
+  font-family: "Arial", sans-serif;
+    font-size: 25px;
 }
-
+ul {
+  list-style-type: none;
+}
 h2 {
    font-size: 30px;
-    color: rgb(178, 32, 32)
-}
-h3 {
-   font-size: 30px;
-    color: rgb(178, 32, 32)
-}
-h4 {
-   font-size: 30px;
-    color: rgb(178, 32, 32)
-}
-h5 {
-   font-size: 30px;
-    color: rgb(178, 32, 32)
+    color: rgb(0, 0, 0)
 }
 p {
     font-size: 25px
@@ -30,35 +24,70 @@ p {
 li {
     font-size: 25px
 }
-
-#pageContent {
-    padding: 50px;
-    background-color: bisque;
-    height: 700px;
-    font-size: 18px;
-}
-
-#myHeader {
-    height: 100px;
-    background-color: cadetblue;
-    color: wheat;
-    font-size: 50;
-    text-align: center;
-    padding-top: 10px;
-}
-
-#profileImg{
-    float: right;
-    padding: 10px;
-    border: 5px dashed red; width:30% 
+#myheader {
+    width: 100%;
+    height: 50px;
+    background: #001b50;
+    border: solid #CCCCCC thin;
+    border-bottom: solid #16439b 10px;
+    border-top: solid #001b50 10px;
+    padding-top: 20px;
+    align-content: center;
+    text-align: center;  
 }
 a.button{
     
-    padding: 15px;
+    padding: 20px;
     border: 5px outset buttonborder;
     border-radius: 7px;
     color: black;
     background-color: azure;
     text-decoration: none;
     margin: 20px;
+    font-size: 20px
+}
+#leftEdge {
+    float: left;
+    border-left: solid #CCCCCC thin;
+    background: #16439b;
+    width: -5%;
+    height: 2900px;
+}
+
+#rightEdge {
+    float: right;
+    border-left: solid #CCCCCC thin;
+    background: #16439b;
+    width: -5%;
+    height: 2900px;
+}
+
+#pageContent ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    max-width: 800px;
+}
+
+
+#pageContent li {
+    display: flow-root;
+    margin-bottom: 12px;
+    line-height: 1.5;
+   
+}
+#pageContent ul img {
+
+    float: right;
+    width: 200px;
+    
+    height: auto;
+    margin: 0 0 8px 12px;
+   
+    border-radius: 8px;
+    object-fit: cover;
+     border: 2px #16439b;
+    
+    border-collapse: collapse;
+   
+
 }
