@@ -38,7 +38,7 @@ li {
 a.button{
     
     padding: 20px;
-    border: 5px outset buttonborder;
+    border: 5px outset #CCCCCC;
     border-radius: 7px;
     color: black;
     background-color: azure;
@@ -50,7 +50,7 @@ a.button{
     float: left;
     border-left: solid #CCCCCC thin;
     background: #16439b;
-    width: -5%;
+    width: 0%;
     height: 2900px;
 }
 
@@ -58,7 +58,7 @@ a.button{
     float: right;
     border-left: solid #CCCCCC thin;
     background: #16439b;
-    width: -5%;
+    width: 0%;
     height: 2900px;
 }
 
@@ -79,14 +79,11 @@ a.button{
 
     float: right;
     width: 200px;
-    
     height: auto;
     margin: 0 0 8px 12px;
-   
     border-radius: 8px;
     object-fit: cover;
      border: 2px #16439b;
-    
     border-collapse: collapse;
    
 
